@@ -1,0 +1,12 @@
+
+.carrusel{
+    margin-left: 90px;
+    width: 1700px;
+    display: flex;
+}
+
+.carruselImg{
+    height: 600px;
+    object-fit: cover;
+}
+
