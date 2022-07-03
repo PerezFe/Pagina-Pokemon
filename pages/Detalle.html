@@ -1,0 +1,168 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Pokemon" content="Pagina de Pokemon" />
+    <meta name="keywords" content="Pokemon, info Pokemon," />
+    <meta name="author" content="Fernando Pérez" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bgNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Pokemon</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main >
+          <div id="carouselExampleIndicators" class="carousel slide carrusel my-5 mx-5" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/pexels-carolina-castilla-arias-1716861.jpg" class="d-block img-fluid carruselImg" alt="..." width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/pexels-pixabay-163042.jpg" class="d-block w-100 carruselImg" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/pexels-vincent-ma-janssen-1310847.jpg" class="d-block w-100 carruselImg" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="parrafoLink">
+              <p >Los datos fueron tomados de la siguiente pagina web <a href="https://www.pokemon.com/el/pokedex/" id="linkPagina">https://www.pokemon.com/el/pokedex/</a></p>
+            </div>
+          </div>
+
+          <section class="seccionDetalle">
+            <div class="detalleNombre">
+              <p>Bulbasaur</p>
+              <p class="numeroPokemon mx-3">N.°001</p>
+            </div>
+            <div class="container">
+              <div class="row BulbaDetalle">
+                <div class="col BulbaDetalleImg">
+                  <img src="../img/bulbadetalle.png" alt="bulbasaur" width="80%">
+                </div>
+                <div class="col ">
+                  <p class="detalleTexto ">Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo</p>
+                  <div class="cajaAzul row">
+                    <div class="version">
+                      <p class="text-light mx-1 ">Version</p>
+                      <hr>
+                    </div>
+                    <div class="col version2">
+                      <p class="text-light">Altura</p>
+                      <p class="text-light habilidades"><font color="black">0,7 m</font> </p>
+                      <br>
+                      <p class="text-light">Peso</p>
+                      <p class="text-light habilidades"><font color="black">6,9kg</font> </p>
+                      <i class="bi bi-gender-female text-light"></i>
+                      <i class="bi bi-gender-male text-light"></i>
+                    </div>
+                    <div class="col">
+                      <p class="text-light">Categoria</p>
+                      <p class="text-light habilidades"><font color="black">Semilla</font> </p>
+                      <br>
+                      <p class="text-light">Habilidad</p>
+                      <p class="text-light habilidades"><font color="black">Espesura</font> </p>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="col h5">Tipo</div>
+                  <span class="badge badgeColorPlanta">Planta</span>
+                  <span class="badge badgeColorVeneno">Veneno</span>
+                  <p class="h5">Debilidad</p>
+                  <span class="badge badgeColorFuego">Fuego</span>
+                  <span class="badge badgeColorPsiquico">Psíquico</span>
+                  <span class="badge text-bg-info">Volador</span>
+                  <span class="badge badgeColorHielo">Hielo</span>
+                </div>
+                <div class="evolucionesColor">
+                  <p class="h2">Evoluciones</p>
+                  <ul class="nav">
+                    <li>
+                      <img src="../img/bulbasaur.png" alt="bulbasaur" width=130% class="evolucionImg1">
+                      <p>Bulbasaur <font color="grey">N.°001</font> </p>
+                      <span class="badge badgeColorPlanta">Planta</span>
+                      <span class="badge badgeColorVeneno">Veneno</span>
+                    </li>
+                    <li>
+                      <img src="../img/ivisaur.png" alt="ivisaur" width=140% class="evolucionImg">
+                      <p>Ivisaur <font color="grey">N.°002</font> </p>
+                      <span class="badge badgeColorPlanta">Planta</span>
+                      <span class="badge badgeColorVeneno">Veneno</span>
+                    </li>
+                    <li>
+                      <img src="../img/venusaur.png" alt="venusaur" width=140% class="evolucionImg">
+                      <p>Venusaur <font color="grey">N.°002</font> </p>
+                      <span class="badge badgeColorPlanta">Planta</span>
+                      <span class="badge badgeColorVeneno">Veneno</span>
+                    </li>
+                  </ul>
+                  
+                    
+                    
+                    
+                </div>
+               
+              </div>
+            
+           </section>
+            
+          
+            
+  
+         
+          
+    </main>
+    <footer class="bg-dark py-4 text-light text-center footer">
+        <p>&copy Todos los derechos reservados</p>
+
+    </footer>
+        <script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>

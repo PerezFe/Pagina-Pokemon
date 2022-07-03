@@ -1,8 +1,9 @@
+.bgNav{
+    background: #dc3545;
+}
 
 .carrusel{
-    margin-left: 90px;
-    width: 1700px;
-    display: flex;
+    margin-top: 30px;
 }
 
 .carruselImg{
@@ -10,3 +11,169 @@
     object-fit: cover;
 }
 
+
+
+.numeroPokemon{
+    color: grey;
+}
+
+.nombrePokemon{
+    color: black;
+    font-size: 25px;
+}
+
+.badgeColorPlanta{
+    background: #9bcc50;
+}
+
+.badgeColorVeneno{
+    background: #b97fc9;
+}
+.badgeColorAgua{
+    background: #4592c4;
+}
+.badgeColorFuego{
+    background: #fd7d24;
+}
+.badgeColorPsiquico{
+    background: #f366b9;
+}
+.badgeColorHielo{
+    background: #51cfef;
+}
+
+
+
+.footer{
+    margin-top: 40px;
+}
+
+.card{
+    width: 250px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Detalle */
+
+.detalleNombre{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.seccionDetalle{
+    border-radius: 30px;
+    width: 1600px;
+    margin-left: 140px;
+}
+
+
+.detalleTexto{
+    font-size: 25px;
+}
+
+.detalleImg{
+    width: 30%;
+}
+
+.infoDetalle{
+    background: brown;
+    width: 600px;
+}
+
+.cajaAzul{
+    background: #0d6efd;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.version{
+    height: 5px;
+}
+
+.evolucionesColor{
+    background: #e2e0e0;
+}
+
+ul.nav {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+ul.nav > li {
+    display: inline-block;
+    padding: 10px 90px;
+}
+
+/* Media */
+
+@media (max-width: 767px){
+    .carruselImg{
+        width: 100%;
+    }
+    
+    .card{
+        width: 100%;
+    }
+    .carruselImg{
+        height: 350px;
+    }
+    .parrafoLink{
+        text-align: center;
+
+    }
+    #linkPagina{
+        margin-left: -30px;
+    }
+    .seccionDetalle{
+        width: 257px;
+        margin-left: 35px;  
+    }
+
+    .bulbaDetalle{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+
+    .BulbaDetalleImg{
+        margin: 28px;
+    }
+    .detalleNombre{
+        font-size: 30px;
+    }
+
+   .evolucionImg{
+    width: 350%;
+    margin-left: -80px;
+   }   
+   .evolucionImg1{
+    width: 280%;
+    margin-left: -60px;
+   }
+  
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .carruselImg{
+        width: 100%;
+    }
+    .contenedor{
+        margin-left: 15px;
+        text-align: center;
+    }
+    .parrafoLink{
+        font-size: 25px;
+    }
+    .seccionDetalle{
+        width: 100%;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}

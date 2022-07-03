@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Document</title>
+    <title>Pagina Pokemon</title>
 </head>
 <body>
-    <main>
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg bgNav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">Pokemon</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -26,7 +26,7 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categorias
+                        Dropdown
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -43,13 +43,15 @@
               </div>
             </div>
           </nav>
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    </header>
+    <main >
+          <div id="carouselExampleIndicators" class="carousel slide carrusel my-5 mx-5" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner carrusel">
+            <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/pexels-carolina-castilla-arias-1716861.jpg" class="d-block img-fluid carruselImg" alt="..." width="100%">
               </div>
@@ -68,9 +70,144 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+            <div class="parrafoLink">
+              <p >Los datos fueron tomados de la siguiente pagina web <a href="https://www.pokemon.com/el/pokedex/" id="linkPagina">https://www.pokemon.com/el/pokedex/</a></p>
+            </div>
           </div>
+          <article class="container contenedor">
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/bulbasaur.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 001</h5>
+                  <p class="card-text">Bulbasaur</p>
+                  <span class="badge badgeColorPlanta">Planta</span>
+                  <span class="badge badgeColorVeneno">Veneno</span>
+                  <br>
+                  <a href="pages/Detalle.html"><button class="btn btn-primary my-3" type="button">Ver mas</button>
+                  </a>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/ivisaur.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 002</h5>
+                  <p class="card-text">Ivisaur</p>
+                  <span class="badge badgeColorPlanta">Planta</span>
+                  <span class="badge badgeColorVeneno">Veneno</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/venusaur.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 003</h5>
+                  <p class="card-text">Venusaur</p>
+                  <span class="badge badgeColorPlanta">Planta</span>
+                  <span class="badge badgeColorVeneno">Veneno</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/blastoise.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 004</h5>
+                  <p class="card-text">Blastoise</p>
+                  <span class="badge badgeColorAgua">Agua</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/charmander.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 005</h5>
+                  <p class="card-text">Charmander</p>
+                  <span class="badge badgeColorFuego">Fuego</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/charmeleon.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 006</h5>
+                  <p class="card-text">Charmeleon</p>
+                  <span class="badge badgeColorFuego">Fuego</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/charizard.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 007</h5>
+                  <p class="card-text">Charizard</p>
+                  <span class="badge badgeColorFuego">Fuego</span>
+                  <span class="badge text-bg-info">Volador</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/metapod.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 008</h5>
+                  <p class="card-text">Metapod</p>
+                  <span class="badge text-bg-success">Bicho</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/caterpie.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 009</h5>
+                  <p class="card-text">Caterpie</p>
+                  <span class="badge text-bg-success">Bicho</span>
+                  <span class="badge badgeColorVeneno">Veneno</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 col-lg-3 mb-3">
+              <div class="card">
+                <img src="img/butterfree.png" class="card-img-top" alt="factura">
+                <div class="card-body">
+                  <h5 class="card-title numeroPokemon">N.° 009</h5>
+                  <p class="card-text">Butterfree</p>
+                  <span class="badge text-bg-success">Bicho</span>
+                  <span class="badge text-bg-info">Volador</span>
+                  <br>
+                  <button class="btn btn-primary my-3" type="button">Ver mas</button>
+                </div>
+              </div>
+            </aside>
+            
+  
+          </article>
+          
     </main>
-    <footer class="bg-dark py-4 text-light text-center">
+    <footer class="bg-dark py-4 text-light text-center footer">
         <p>&copy Todos los derechos reservados</p>
 
     </footer>
